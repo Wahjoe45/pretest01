@@ -12,10 +12,12 @@ html>
       href="images/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
     <script src="js/wow.min.js"></script>
+    <script src="{{asset('js/app.js')}}"></script>
     <script>
       new WOW().init();
     </script>
