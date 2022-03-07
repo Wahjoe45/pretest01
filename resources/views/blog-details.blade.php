@@ -7,14 +7,15 @@
     <title>Blog Details | Play Tailwind</title>
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.png"
+      href="{{asset('assets/images/logo/favicon.svg')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
     <script>
       new WOW().init();
     </script>
